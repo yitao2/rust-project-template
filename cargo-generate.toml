@@ -6,3 +6,9 @@ include = [
     "README.md",
     "src/**"
 ]
+
+ignore = [
+    "Cargo.lock",
+    "CHANGELOG.md",
+    "assets/**",
+]
