@@ -15,7 +15,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 - Better Comments: 优化注释显示
 - Error Lens: 错误提示优化
 - GitLens: Git 增强
-- Github Copilot: 代码提示
 - indent-rainbow: 缩进显示优化
 - Prettier - Code formatter: 代码格式化
 - REST client: REST API 调试
@@ -45,10 +44,10 @@ cargo generate yitao2/rust-project-template
 pre-commit 是一个代码检查工具，可以在提交代码前进行代码检查。
 
 ```bash
-pipx install pre-commit
+uv tool install pre-commit
 ```
 
-安装成功后运行 `pre-commit install` 即可。
+安装成功后, 项目路径运行 `pre-commit install` 即可。
 
 ### 安装 Cargo deny
 
